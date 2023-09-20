@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/* My travel card design*/
+
+
+.nav {
+  display: flex;
+  align-items: center;
+  background-color: rgb(236, 118, 118);
+  height: 10px;
+  padding: 30px 550px;
+  border-top: 9px;
+  margin: top 9px; 
+  padding-bottom:30px;  
+  margin: left 180px;
+}
+
+.navlogo {
+  font-size: small;
+  height : 40px;
+  display:flex;
+  color:white;
+  border-radius: 9px;
+  align-items: right 1000px;
+  
+}
+
+.logotext {
+  margin-right:80px;
+  color:white;
+  font-weight: 200;
+  font-size: 22px;
+  }   
+
+.container{
+  position: relative;
+  left:40px;
+  padding-bottom:40px;
+  top:10px;
+  border-bottom: 1px solid rgb(161, 157, 157); 
+  margin-right:80px;
+  margin-bottom:28px;
+}
+
+.countryimg{   
+  position: relative;
+  width: 160px;
+  height: 260px;
+  left: 25px;
+  top: 30px;
+  border-radius: 5px;   
+}
+
+.mapicon{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 200px;
+  top: 40px;
+}
+
+.maplocation{
+  position: absolute;
+  width: 30px;
+  letter-spacing:normal;
+  left: 230px;
+  top: 100px;
+  font-weight: normal;
+  font-size: 14px;
+  float:right ;
+  top: 40px;
+  }
+
+.mapviewtext:link{
+  text-decoration:underline;
+  position: absolute;
+  letter-spacing:normal;
+  font-weight: normal;
+  font-size: 14px;
+  font-style: italic;
+  left: 394px;
+  top: 110px;
+  line-height: 12px;
+  float: right;
+  top: 42px;
+}
+
+.mapviewtext:visited {
+  color:rgb(68, 67, 67);
+} 
+
+.mapviewtext:hover {
+  font-family:monospace;
+  color:blueviolet;
+} 
+
+.mapcountry{
+  position: absolute;
+  width: 226px;
+  height: 40px;
+  left: 200px;
+  top: 134px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 12px;
+  top: 70px;
+}
+
+.mapdate{
+  position: absolute;
+  width: 319px;
+  height: 15px;
+  left: 200px;
+  top: 192px;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 6px; 
+  top: 130px;
+}
+
+.mapdesc{
+  position: absolute;
+  width: 326px;
+  height: 45px;
+  left: 200px;
+  top: 220px;
+  font-size: 13px;
+  line-height: 150%;
+  top: 154px;
+  text-align: justify;
+  }   
+
+  
+/* My travel card design End*/
+
